@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/pshrest2/azure-upload-benchmark/compare/v0.1.0...v0.2.0) (2026-03-23)
+
+
+### Features
+
+* add py.typed marker for PEP 561 support ([2e803df](https://github.com/pshrest2/azure-upload-benchmark/commit/2e803dff0d9747a7b8c366c470317a56a17420ce))
+
 ## 0.1.0 (2026-03-23)
 
 
