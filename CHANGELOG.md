@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/pshrest2/azure-upload-benchmark/compare/v0.2.0...v0.2.1) (2026-03-23)
+
+
+### Bug Fixes
+
+* use custom release please token ([e4f7901](https://github.com/pshrest2/azure-upload-benchmark/commit/e4f790127dd1f130be9c1376a304b374d6c29436))
+
 ## [0.2.0](https://github.com/pshrest2/azure-upload-benchmark/compare/v0.1.0...v0.2.0) (2026-03-23)
 
 
