@@ -151,6 +151,43 @@ uv sync --extra dev
 uv run pytest tests/ -v
 ```
 
+## Development Setup
+
+After cloning the repo, install dependencies and set up pre-commit hooks:
+
+```bash
+uv sync --extra dev
+uv run pre-commit install
+uv run pre-commit install --hook-type commit-msg
+```
+
+### Conventional Commits
+
+This project enforces [Conventional Commits](https://www.conventionalcommits.org/) via a pre-commit hook. All commit messages must follow the format:
+
+```
+<type>: <description>
+```
+
+Allowed types: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`, `revert`
+
+Examples:
+
+```
+feat: add retry logic for failed uploads
+fix: handle empty CSV when loading results
+docs: update CLI options table
+ci: add Python 3.13 to test matrix
+```
+
+Breaking changes use `!` after the type:
+
+```
+feat!: redesign CLI argument structure
+```
+
+Releases and changelogs are generated automatically from these commit messages.
+
 ## License
 
 MIT
