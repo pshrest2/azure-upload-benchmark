@@ -4,4 +4,4 @@ A tool for benchmarking Azure Blob Storage upload performance with varying
 chunk sizes and concurrency levels.
 """
 
-__version__ = "0.2.1"
+__version__ = "0.2.2"

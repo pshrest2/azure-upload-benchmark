@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/pshrest2/azure-upload-benchmark/compare/v0.2.1...v0.2.2) (2026-03-23)
+
+
+### Documentation
+
+* update installation instruction ([fce7297](https://github.com/pshrest2/azure-upload-benchmark/commit/fce7297e7d1c5b073dace8af5cbc46d322f9a5c4))
+
 ## [0.2.1](https://github.com/pshrest2/azure-upload-benchmark/compare/v0.2.0...v0.2.1) (2026-03-23)
 
 
