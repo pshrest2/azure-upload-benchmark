@@ -19,7 +19,7 @@ uv add "azure-upload-benchmark[plots]"
 ### From source
 
 ```bash
-git clone https://github.com/pshresth/azure-upload-benchmark.git
+git clone https://github.com/pshrest2/azure-upload-benchmark.git
 cd azure-upload-benchmark
 uv sync --extra dev
 ```
