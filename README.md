@@ -6,14 +6,32 @@ Runs a configurable grid of `(chunk_size, concurrency)` combinations, records ti
 
 ## Installation
 
+> **Requires Python 3.10+**
+
 ```bash
-uv add azure-upload-benchmark
+uvx azure-upload-benchmark --help
+```
+
+Or install globally:
+
+```bash
+uv tool install azure-upload-benchmark
+```
+
+With pip / pipx:
+
+```bash
+pipx install azure-upload-benchmark
+# or
+pip install azure-upload-benchmark
 ```
 
 To enable plot generation (heatmaps, line plots, 3-D surface):
 
 ```bash
-uv add "azure-upload-benchmark[plots]"
+uv tool install "azure-upload-benchmark[plots]"
+# or
+pipx install "azure-upload-benchmark[plots]"
 ```
 
 ### From source
